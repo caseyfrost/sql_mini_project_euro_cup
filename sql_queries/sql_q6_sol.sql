@@ -30,7 +30,7 @@ ON
 	wins.match_no = losses.match_no)
 
 SELECT
-	result.match_no, result.win_goals, result.loss_goals, result.dif
+	COUNT(result.match_no) as count_matches_won_by_one_point
 FROM
 	result
 WHERE
