@@ -1,3 +1,6 @@
+-- Write a SQL query to compute a list showing the number of substitutions that
+-- happened in various stages of play for the entire tournament.
+
 SELECT
 	COUNT(p.match_no) AS match_count,
     m.play_stage AS play_stage

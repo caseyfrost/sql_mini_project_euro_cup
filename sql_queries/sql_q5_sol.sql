@@ -1,3 +1,5 @@
+-- Write a SQL query to find the number of bookings that happened in stoppage time.
+
 SELECT
 	COUNT(p.match_no) as booked_in_stop
 FROM
