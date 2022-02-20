@@ -9,7 +9,7 @@ FROM
 JOIN
 	euro_cup_2016.soccer_country AS c
 ON
-	m.team_id = c.country_id
+	m.team_id = c.country_id AND m.decided_by = 'P'
 ),
 
 countries AS(
